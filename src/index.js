@@ -6,7 +6,11 @@ import Footer from './Components/Footer.js';
 import Clock from './Components/Clock.js';
 import Login from './Components/login.js';
 import LessText from './Components/Less.js'
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals.js';
+import Greet from './Components/Greet.js';
+import ProductTable from './Components/Product';
+import SaveLogin from './Components/Save.js';
+import Car from './Components/Car.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,14 +20,19 @@ root.render(
     <Footer />
     <Clock />
     <Clock />
-    <Login /> */}
+    <Login />
     <LessText
       text={`Focused, hard work is the real key
       to success. Keep your eyes on the goal, 
       and just keep taking the next step 
       towards completing it.`}
       maxLength={35}
-    />,
+    />
+    <Greet />
+    <SaveLogin />
+    <Car />
+    <ProductTable /> */}
+
   </React.StrictMode>
 );
 
